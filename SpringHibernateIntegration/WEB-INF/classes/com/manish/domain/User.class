@@ -1,0 +1,16 @@
+Êþº¾   2 S  com/manish/domain/User  java/lang/Object id Ljava/lang/Long; name Ljava/lang/String; password gender country aboutYou 	community [Ljava/lang/String; mailingList Ljava/lang/Boolean; <init> ()V Code
+     LineNumberTable LocalVariableTable this Lcom/manish/domain/User; getId ()Ljava/lang/Long; RuntimeVisibleAnnotations Ljavax/persistence/Id; "Ljavax/persistence/GeneratedValue; Ljavax/persistence/Column; USER_ID	  "   setId (Ljava/lang/Long;)V getName ()Ljava/lang/String; 	USER_NAME	  )   setName (Ljava/lang/String;)V getPassword USER_PASSWORD	  / 	  setPassword 	getGender USER_GENDER	  4 
+  	setGender 
+getCountry USER_COUNTRY	  9   
+setCountry getAboutYou USER_ABOUT_YOU	  >   setAboutYou getCommunity ()[Ljava/lang/String; USER_COMMUNITY	  D   setCommunity ([Ljava/lang/String;)V getMailingList ()Ljava/lang/Boolean; USER_MAILING_LIST	  K   setMailingList (Ljava/lang/Boolean;)V 
+SourceFile 	User.java Ljavax/persistence/Entity; Ljavax/persistence/Table; USER !                 	     
+                                /     *· ±                                         s      /     *´ !°                         # $     >     *+µ !±       
+                          % &         s '    /     *´ (°           "              * +     >     *+µ (±       
+    %  &                    , &         s -    /     *´ .°           *              0 +     >     *+µ .±       
+    -  .                	    1 &         s 2    /     *´ 3°           2              5 +     >     *+µ 3±       
+    5  6                
+    6 &         s 7    /     *´ 8°           :              : +     >     *+µ 8±       
+    =  >                    ; &         s <    /     *´ =°           B              ? +     >     *+µ =±       
+    E  F                    @ A         s B    /     *´ C°           J              E F     >     *+µ C±       
+    M  N                    G H         s I    /     *´ J°           R              L M     >     *+µ J±       
+    U  V                    N    O      P   Q  s R
